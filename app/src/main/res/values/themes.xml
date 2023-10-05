@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SOFE4640UAssignment1" parent="Theme.AppCompat.Light">
+    </style>
+    <style name="You.EditText.Style" parent="@android:style/Widget.EditText">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="PrimaryButton">
+        <item name="android:background">@drawable/rounded_corner_view</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@color/primaryColor</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="SecondaryButton">
+        <item name="android:background">@drawable/rounded_corner_view</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@color/secondaryColor</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="Theme.SOFE4640UAssignment1" parent="Base.Theme.SOFE4640UAssignment1" />
+</resources>
