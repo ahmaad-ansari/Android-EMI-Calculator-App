@@ -1,5 +1,3 @@
-# SOFE4640U-Assignment-1
-
 # Android EMI Calculator App
 
 ## Introduction
