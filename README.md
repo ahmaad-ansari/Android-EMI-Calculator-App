@@ -44,6 +44,16 @@ Intents are used to enable communication between different activities within the
 
 The EMI calculation results, including the EMI amount, total payments, total interest paid, and principal paid, are encapsulated in an `EMICalculationResult` object. This object is created in the `ResultsActivity` after performing the calculation and is then used to populate the TextViews in the results screen. It provides a structured representation of the EMI details, enhancing code modularity and readability.
 
+## Input Validation and Error Handling
+
+The Android EMI Calculator App incorporates robust input validation and error handling mechanisms to ensure a seamless user experience and prevent unexpected issues. Here are some key aspects of the error checking and validation:
+
+- **Empty Fields**: The app checks for empty fields in the input form (principal amount, interest rate, amortization period) and prompts the user to fill in all required fields if any are left empty.
+- **Invalid Data**: To prevent invalid data entry, the app verifies that the user inputs are valid numbers. If the input is not a valid number, it displays an error message and guides the user to enter a valid numerical value.
+- **Zero Values**: The app also ensures that the principal amount, interest rate, and amortization period are not set to zero. If any of these values are zero, the user is prompted to provide valid non-zero values.
+
+These comprehensive error checks and input validations contribute to a reliable and user-friendly EMI calculator, ensuring that users receive accurate results while minimizing the risk of data entry errors.
+
 ## Getting Started
 
 To use this app and examine the source code:
